@@ -172,7 +172,7 @@ fees = 0.095 × 12.99 + 0.45 = $1.234 + $0.45 = **$1.684**, net = 12.99 − 1.68
 
 ## A free spreadsheet for these calculations
 
-You can do all of this with a calculator and the formulas above. If you'd rather not repeat it for every item, I made a free spreadsheet that does these Etsy calculations for one product at a time: fee breakdown, net profit, margin, and the price you need for your target margin, with an optional currency conversion %. It's the [Seller Profit Calculator (Lite): Free Spreadsheet for Etsy Sellers](https://khalidmasscom.gumroad.com/l/yokfgr?utm_source=blog&utm_medium=article&utm_campaign=p001_lite&utm_content=article_end). It's free ($0+, paying is optional), and Gumroad asks for an email address to deliver it.
+You can do all of this with a calculator and the formulas above. If you'd rather not repeat it for every item, I made a free spreadsheet that does these Etsy calculations for one product at a time: fee breakdown, net profit, margin, and the price you need for your target margin, with an optional currency conversion %. It's the [Seller Profit Calculator (Lite): Free Spreadsheet for Etsy Sellers](https://gum.co/u/sloyiecz). It's free ($0+, paying is optional), and Gumroad asks for an email address to deliver it.
 
 ## Sources (checked 27 Sep 2026)
 

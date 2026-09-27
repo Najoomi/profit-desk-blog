@@ -170,7 +170,7 @@ Working in whole pence avoids rounding surprises:
 
 ## A free record book for one holding
 
-If you'd rather not do this by hand for every trade, I made a free spreadsheet that applies these matching rules for one holding. It shows how each sale was matched, the allowable cost, the gain or loss, the running pool and a tax-year summary. It's a record-keeping tool: it doesn't work out the tax you owe. [UK Share CGT Record Book (Lite), free](https://khalidmasscom.gumroad.com/l/wdatk?utm_source=blog&utm_medium=article&utm_campaign=p003_lite&utm_content=article_end) (Built for Excel; Google Sheets compatible).
+If you'd rather not do this by hand for every trade, I made a free spreadsheet that applies these matching rules for one holding. It shows how each sale was matched, the allowable cost, the gain or loss, the running pool and a tax-year summary. It's a record-keeping tool: it doesn't work out the tax you owe. [UK Share CGT Record Book (Lite), free](https://gum.co/u/3fo1aid1) (Built for Excel; Google Sheets compatible).
 
 ## Sources (checked 27 September 2026)
 
