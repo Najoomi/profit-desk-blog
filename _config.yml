@@ -1,0 +1,13 @@
+title: Profit Desk
+description: >-
+  Practical, plain-English guides to pricing, platform fees and profit
+  margins for small online sellers. Educational content, not financial
+  or tax advice.
+baseurl: "/profit-desk-blog"
+url: "https://najoomi.github.io"
+theme: minima
+markdown: kramdown
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+permalink: /:year/:month/:day/:title/
