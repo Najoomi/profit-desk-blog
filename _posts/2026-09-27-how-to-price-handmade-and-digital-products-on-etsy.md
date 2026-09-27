@@ -32,6 +32,7 @@ This is charged on every Etsy Payments order, as a percentage plus a fixed amoun
 | United Kingdom | 4% + 0.20 GBP |
 | Germany / France (most EU) | 4% + 0.30 EUR |
 | Canada (domestic or orders from the US) | 3% + 0.25 CAD |
+| Australia (domestic orders) | 3% + 0.25 AUD |
 | India | 5% + 25 INR |
 | Pakistan | 6.5% + 0.30 USD |
 
@@ -49,12 +50,12 @@ You can't choose which orders come from ads, so it's sensible to price so that a
 
 ### 5. Currency conversion: 2.5%
 
-If your **listing currency is different from your bank account's currency**, Etsy converts your earnings and charges **2.5%**. For example, a seller in Pakistan who lists in USD and gets paid into a PKR account pays this. You avoid it only if the currencies match.
+If your **listing currency is different from your bank account's currency**, Etsy converts your earnings and charges **2.5%**. For example, a UK seller who lists in USD and gets paid into a GBP account pays this. You avoid it only if the currencies match.
 
-### Other charges to know about (not in the example)
+### Other charges to know about (not in the main US example)
 
 - **One-time shop set-up fee:** non-refundable, "cost varies by location".
-- **Regulatory operating fee:** applies to sellers in the UK, France, Italy, India, Spain, Türkiye, Vietnam and Canada, as a percentage of the order total.
+- **Regulatory operating fee:** a percentage of the item price plus shipping for sellers in Canada (0.50%), France (1.14%), Hungary (1.97%), Italy (0.80%), India (0.05%), Spain (0.88%), Türkiye (1.67%), the United Kingdom (0.48%) and Vietnam (1.24%). The UK example below includes it.
 - **Etsy Ads** (on-site ads you choose to run), **shipping labels**, **deposit fees** in some countries, and **VAT on seller fees** where it applies.
 
 ## A fully worked example
@@ -97,18 +98,23 @@ Net profit = $9.495 − $4.35 = **$5.145**. Margin = $5.145 ÷ $29.00 = **17.7%*
 
 Same candle, same price: the ad order earns about half as much.
 
-**Step 5: the same order for a seller with a Pakistan bank account, listing in USD**
+**Step 5: the same candle sold by a UK seller (UK bank, listing in GBP)**
+
+Same numbers, in pounds: item £24.00, shipping £5.00, costs £16.30, so the order total is £29.00. The listing fee is charged as USD 0.20; at an assumed rate of about 1.33 USD per GBP that's about £0.15 (the real rate varies).
 
 | Fee | Maths | Amount |
 |---|---|---|
-| Transaction | 6.5% × $29.00 | $1.885 |
-| Payment processing | 6.5% × $29.00 + $0.30 = $1.885 + $0.30 | $2.185 |
-| Listing | flat | $0.200 |
-| Currency conversion (approx.) | 2.5% × $29.00 | $0.725 |
-| **Total fees** | | **$4.995** |
+| Transaction | 6.5% × £29.00 | £1.885 |
+| Payment processing | 4% × £29.00 + £0.20 = £1.16 + £0.20 | £1.360 |
+| Regulatory operating fee (UK) | 0.48% × £29.00 | £0.139 |
+| Listing | USD 0.20, about | £0.150 |
+| **Total fees** | | **£3.534** (about £3.53) |
 
-Net profit = $29.00 − $4.995 − $16.30 = **$7.705**. Margin = $7.705 ÷ $29.00 = **26.6%**.
-*(Etsy applies the 2.5% to the funds it converts. Working it out on the full $29.00 slightly overstates it, which is the cautious direction.)*
+Net profit = £29.00 − £3.534 − £16.30 = **£9.166** (about £9.17). Margin = £9.166 ÷ £29.00 = **31.6%**.
+
+**If that UK seller's listing currency differed from their GBP bank account** (for example, listing in USD), add the 2.5% currency conversion. On a £29.00-equivalent order that's about 2.5% × £29.00 = £0.725, so fees ≈ £4.259, net ≈ £8.441 and margin ≈ **29.1%**. *(Etsy applies the 2.5% to the funds it converts. Working it out on the full order total slightly overstates it, which is the cautious direction.)*
+
+Not included here: VAT on Etsy's seller fees, which applies to many UK sellers. Check your own VAT position.
 
 ## Two formulas you can use with a calculator
 
@@ -141,8 +147,10 @@ Check: fees = 0.095 × 27.69 + 0.45 = $3.08; net = 27.69 − 3.08 − 16.30 = $8
 **If you want ad orders to hit the target too**, add the ad rate to p: p = 0.095 + 0.15 = 0.245.
 16.75 ÷ (1 − 0.245 − 0.30) = 16.75 ÷ 0.455 = **$36.81** order total, so the item price is **$31.81**. (The ad fee is 0.15 × 36.81 = $5.52, far below the $100 cap. The formula only holds while the ad fee is under the cap.)
 
-**Pakistan bank, listing in USD:** p = 0.065 + 0.065 + 0.025 = 0.155 and F = 0.30 + 0.20 = 0.50.
-30% target: (0.50 + 16.30) ÷ (1 − 0.155 − 0.30) = 16.80 ÷ 0.545 = **$30.83** order total, so the item price is **$25.83**.
+**UK bank, listing in GBP:** p = 0.065 + 0.04 + 0.0048 (regulatory fee) = 0.1098, and F = £0.20 processing + about £0.15 listing = £0.35.
+30% target: (0.35 + 16.30) ÷ (1 − 0.1098 − 0.30) = 16.65 ÷ 0.5902 = **£28.21** order total, so the item price is **£23.21**.
+Check: fees = 0.1098 × 28.21 + 0.35 = £3.45; net = 28.21 − 3.45 − 16.30 = £8.46; 8.46 ÷ 28.21 = **30.0%**. ✔
+Listing currency different from your GBP bank? Add 0.025 to p (approximate, in GBP terms): 16.65 ÷ (1 − 0.1348 − 0.30) = 16.65 ÷ 0.5652 = **£29.46** order total, so an item price of about **£24.46**.
 
 **If p + m is 1 or more, no price works.** The fees plus your target already take the whole sale. Lower the target or cut costs.
 
@@ -155,7 +163,7 @@ fees = 0.095 × 12.99 + 0.45 = $1.234 + $0.45 = **$1.684**, net = 12.99 − 1.68
 
 1. **Charging fees on the item price only.** The 6.5% transaction fee and the processing fee include shipping (and processing includes sales tax). Always work fees out on the full order total.
 2. **Leaving your time out.** If labour isn't a cost, a "profitable" item might pay you $3 an hour. Put your hourly rate into C.
-3. **Using someone else's processing rate.** It depends on your bank's country. 3% + $0.25 is the US rate. Pakistan is 6.5% + $0.30.
+3. **Using someone else's processing rate.** It depends on your bank's country. 3% + $0.25 is the US rate; the UK is 4% + £0.20; most EU countries are 4% + €0.30. Some countries also add a regulatory operating fee.
 4. **Forgetting currency conversion.** Listing in USD with a non-USD bank account costs another 2.5%.
 5. **Pricing as if Offsite Ads never happen.** At 15%, an ad order can halve your profit (see Step 4). Check your price still works on an ad order.
 6. **Adding percentages the wrong way.** A 30% margin does **not** mean "costs × 1.3". Use the formula: divide by (1 − p − m).
@@ -172,5 +180,6 @@ You can do all of this with a calculator and the formulas above. If you'd rather
 - Etsy: What are Payment Processing Fees for Selling on Etsy? https://help.etsy.com/hc/en-us/articles/115015628847
 - Etsy: How Etsy's Offsite Ads Work: https://help.etsy.com/hc/en-us/articles/360000338367
 - Etsy: Fees and Listing Multiple Quantities: https://help.etsy.com/hc/en-us/articles/360000344908
+- Etsy: What is a Regulatory Operating Fee? https://help.etsy.com/hc/en-us/articles/1500011073202
 
 Fees change; verify current fees with each platform. Educational tool, not financial or tax advice.
