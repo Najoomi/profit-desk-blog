@@ -12,3 +12,6 @@ plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
 permalink: /:year/:month/:day/:title/
+
+webmaster_verifications:
+  google: aPUtRJFRZSdh_HV5b6L1_DpVmpGbA2nuGwMor-1NUx0
